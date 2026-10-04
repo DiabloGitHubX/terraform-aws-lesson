@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Terraform local/backend files
+.terraform.tfstate.lock.info
+
+# SSH private keys
+*.pem
+*.key
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+terraform-lesson
+terraform-lesson.*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
